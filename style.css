@@ -1,3 +1,45 @@
-body{
+p{
     background-color: aqua;
+}
+#p3{
+    color: hsl(hue, saturation, lightness)
+}
+#h{
+    background-color: aquamarine;
+}
+/* .green-text{
+    color: aqua;
+
+} */
+/* 
+color variations
+rgb
+rgba
+hex
+hsl
+hsla */
+#bg{
+    background-color: blue;
+    background-image: url('image.png');
+
+}
+#border{
+    border-style: double ;
+    border-width: 5px;
+    border-color: red;
+    border-radius: 100px, 20px;
+    
+}
+.div1{
+    /* background-color: blueviolet;
+    height:500px;
+    width: 70%; */
+    border: 1px solid red;
+    padding-top: 10%
+    
+}
+#marg{
+    margin-top: 50px;
+    margin-bottom: 10;
+   
 }

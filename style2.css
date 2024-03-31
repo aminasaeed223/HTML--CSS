@@ -1,0 +1,25 @@
+#text{
+    width : 500px;
+    border: 1px solid black;
+    color:red;
+    text-align: center;
+    direction: rtl;
+    word-spacing: 15px;
+    word-wrap: break-word;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:brown
+
+}
+a:visited{
+    color:blanchedalmond
+}
+a:hover{
+    color:azure
+}
+a:active{
+    color:aqua
+}
