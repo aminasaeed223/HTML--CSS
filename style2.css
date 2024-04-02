@@ -1,4 +1,4 @@
-#text{
+/* #text{
     width : 500px;
     border: 1px solid black;
     color:red;
@@ -29,7 +29,7 @@ a:active{
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
-  }
+  } */
   
   /* .roboto-light {
     font-family: "Roboto", sans-serif;
@@ -37,9 +37,29 @@ a:active{
 
 } */
 #parent{
-    
+    height: 500px;
+    border: 1px solid grey;
+    background-image: radial-gradient( green, rgb(0, 225, 255));
+
+
     /* border: 1px solid red;
     font-size: 20px;
     cursor: all-scroll;
     box-shadow:10px 20px grey; */
+}
+#overflow{
+   background-color: whitesmoke;
+   border: 1px solid rgb(171, 11, 11); 
+   width: 500px;
+   height: 300px;
+   overflow-x: hidden;
+   overflow-y: scroll;
+   resize: horizontal;
+
+}
+ul{
+list-style-type: square;
+}
+ol{
+list-style-type: lower-alpha;
 }
