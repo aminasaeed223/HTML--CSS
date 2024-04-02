@@ -6,6 +6,8 @@
     direction: rtl;
     word-spacing: 15px;
     word-wrap: break-word;
+    font-size:30px;
+    font-weight: 200;
 }
 a{
     text-decoration: none;
@@ -22,4 +24,22 @@ a:hover{
 }
 a:active{
     color:aqua
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  /* .roboto-light {
+    font-family: "Roboto", sans-serif;
+#parent{
+
+} */
+#parent{
+    
+    /* border: 1px solid red;
+    font-size: 20px;
+    cursor: all-scroll;
+    box-shadow:10px 20px grey; */
 }
