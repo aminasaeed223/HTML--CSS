@@ -1,0 +1,36 @@
+table{
+    border: 1px solid black;
+    table-layout: 300px;
+
+}
+tr{
+    height: 55px;
+    padding: 5px;
+    text-align: left;
+    vertical-align: bottom;
+    border: 1px solid rgb(210, 23, 23);
+}
+th{
+   height: 55px;
+   padding: 5px;
+   text-align: left;
+   vertical-align: bottom;
+   border: 1px solid rgb(0, 0, 0);
+}
+#function{
+    background-color: aqua;
+    height:200px;
+    width: calc(100% - 200px);
+}
+#green{
+color: azure;
+}
+#blue{
+    color: blue;
+}
+#initial{
+    color: initial;
+}
+#inherit{
+    color: inherit;
+}
