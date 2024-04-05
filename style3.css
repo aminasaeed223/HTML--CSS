@@ -34,3 +34,12 @@ color: azure;
 #inherit{
     color: inherit;
 }
+p::first-line{
+    font-size:35px;
+    color: red;
+
+}
+h1::before{
+    content: "added after";
+
+}

@@ -1,0 +1,38 @@
+@keyframes changecolor{
+    from{
+        background-color: red;
+    }
+    to{
+background-color: yellow;
+    }
+}
+
+
+#animate{
+    background-color: red;
+    height:200px;
+    width:200px;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-delay:4s;
+}
+
+#animate2{
+    background-color: red;
+    height:200px;
+    width:200px;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-delay:4s;
+}
+@media screen{
+font-size: 20px;
+}
+@media print{
+p{
+    font-size:20px;
+}
+div{
+    width: 50%;
+}
+}
