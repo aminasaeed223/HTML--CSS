@@ -1,0 +1,16 @@
+.flex-container{
+background-color: brown;
+display: flex;
+/* flex-direction: column; */
+flex-wrap: nowrap;
+justify-content: flex-end;
+height: 70%vh;
+}
+.flex-child{
+    background-color: rgb(75, 12, 233);
+    margin: 20px;
+    padding: 20px;
+    display:inline-block;
+    text-align:center;
+}
+
